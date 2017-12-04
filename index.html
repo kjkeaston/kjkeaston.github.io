@@ -1,48 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Kyle's Profile</title>
-  <!-- meta -->
-  <meta charset="utf-8" />
-  <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <!-- mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
-</head>
+  <head>
+    <title>Kyle's Profile</title>
+    
+    <!-- meta -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Personal Site">
+    <meta name="author" content="GA Student">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    
+    <!-- scripts -->
+    <script src ="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+   
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+  </head>
+
 <body>
-  <div id="page-wrapper">
-    <h1>Kyle Easton</h1>
-    <img src="assets/imgs/doggo.jpg" alt="doggo" title="dog pic">
+  <div class="container">
+    <div class="row my-name">
+      <div class="col-sm-12 text-center text-uppercase">
+        <h1>Kyle Easton</h1>
+        <img id="headshot" src="assets/imgs/headshot.png" alt="pic" title="headshot">
+      </div>
+    </div>
+    <div class="row ga">
+      <div class="col-sm-12 text-center">
+        <h2>General Assembly -- WDI #42</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 my-work">
+        <h3 class="text-center">Homework</h3>
+        <div class="row" id="homework-section">
+        </div>
+      </div>
+      <div class="col-sm-6 my-work">
+        <h3 class="text-center">Projects</h3>
+        <div class="row" id="projects-section">
+        </div>
+      </div>
+    </div>
+    <div class="row contact">
+      <div class="col-sm-12 text-center">
+        <h3 class="text-uppercase">Contact Me</h3>
+            <li>Email: kjkeaston@gmail.com</li>
+            <li>Phone: 317-828-####</li>
+            <li><a href="https://github.com/kjkeaston" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/kyleeaston/" target="_blank">LinkedIn</a></li>
+      </div>
+    </div>
+
+
+
   </div>
 
-  <div class="myWork">
-    <h2>My Work</h2>
-    <a href="">Homework1</a>
-    <a href="">Homework2</a>
-    <a href="">Homework3</a>
-    <a href="">Homework4</a>
-    <a href="">Homework5</a>
-    <a href="">Homework6</a>
-
-  </div>
-
-  <div class="contactMe">
-    <h2>Contact Me</h2>
-    <ul>
-      <li>Email: kjkeaston@gmail.com</li>
-      <li>Phone: 317-828-####</li>
-      <li><a href="https://github.com/kjkeaston">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/kyleeaston/">LinkedIn</a></li>
-    </ul>
-  </div>
 
 
 </body>
